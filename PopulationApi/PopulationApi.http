@@ -1,6 +1,11 @@
 @PopulationApi_HostAddress = http://localhost:5045
 
-GET {{PopulationApi_HostAddress}}
+###
+# Obtener todos los países guardados
+GET {{PopulationApi_HostAddress}}/api/v1/data/country
 Accept: application/json
 
 ###
+# Guardar países desde la API externa
+POST {{PopulationApi_HostAddress}}/api/v1/data/country
+Accept: application/json
