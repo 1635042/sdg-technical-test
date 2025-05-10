@@ -1,0 +1,26 @@
+# Archivos de compilación
+bin/
+obj/
+*.dll
+*.exe
+
+# Base de datos SQLite
+*.db
+*.db-shm
+*.db-wal
+
+# Archivos de usuario / IDE
+.vscode/
+*.user
+*.suo
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Archivos de configuración locales
+appsettings.Development.json
+
+# Otros
+.DS_Store
+Thumbs.db

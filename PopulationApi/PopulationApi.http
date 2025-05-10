@@ -1,0 +1,6 @@
+@PopulationApi_HostAddress = http://localhost:5045
+
+GET {{PopulationApi_HostAddress}}
+Accept: application/json
+
+###
